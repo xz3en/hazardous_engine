@@ -1,0 +1,13 @@
+# TODO: Better project config
+[package]
+name = "hazardous_engine"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See https://doc.rust-lang.org/cargo/reference/profiles.html
+[profile.dev]
+opt-level = 1
+
+[dependencies]
+glium = "*"
